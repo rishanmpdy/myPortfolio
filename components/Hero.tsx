@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       <div className="relative mb-8">
         <div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-full blur-xl opacity-60 animate-pulse"></div>
         <img 
-            src="https://i.imgur.com/T4FNL0N.jpg" 
+            src="https://avatars.githubusercontent.com/u/234443453?v=4&size=2000" 
             alt="Muhammed Rishan K Portrait" 
             className="relative w-48 h-48 md:w-56 md:h-56 object-cover rounded-full border-4 border-black shadow-2xl"
         />
