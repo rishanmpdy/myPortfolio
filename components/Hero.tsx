@@ -3,7 +3,7 @@ import { GithubIcon, LinkedinIcon } from './icons';
 
 const Hero: React.FC = () => {
   return (
-    <section id="home" className="container mx-auto px-6 py-24 md:py-32 flex flex-col items-center justify-center text-center animate-fade-in-up">
+    <section id="home" className="container mx-auto px-6 py-24 md:py-32 flex flex-col items-center justify-center text-center animate-fade-in-up scroll-mt-20">
       <div className="relative mb-8">
         <div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-full blur-xl opacity-60 animate-pulse"></div>
         <img 

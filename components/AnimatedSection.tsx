@@ -37,8 +37,8 @@ const AnimatedSection: React.FC<AnimatedSectionProps> = ({ children, className =
   return (
     <div
       ref={ref}
-      className={`${className} transition-all duration-1000 ease-out ${
-        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+      className={`${className} transition-opacity duration-1000 ease-out ${
+        isVisible ? 'opacity-100' : 'opacity-0'
       }`}
     >
       {children}
